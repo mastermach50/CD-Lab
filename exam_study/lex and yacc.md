@@ -20,3 +20,7 @@ tokens -> validate -> generate ast or execute actions
 
 Modern: Bison
 File Extension: .y
+Command to run: `yacc -d parser.y`
+Output files generated: `y.tab.h`, `y.tab.c`
+
+Final compilation command: `gcc y.tab.c y.tab.h lex.yy.c -lfl -ly`
