@@ -12,6 +12,7 @@ pkgs.mkShell {
     clang
 
     # Editor Support
+    gdb
     lldb
     clang-tools
 
